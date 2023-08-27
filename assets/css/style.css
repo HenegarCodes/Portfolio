@@ -12,3 +12,42 @@ body {
 h1 {
     display: inline;
 }
+
+header nav{
+
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 25px;
+}
+
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+     margin-left: 25px;
+}
+
+figure {
+    height: 450px;
+    width: 50%;
+    margin-bottom: 25px;
+    background-image: url("../images/profile.JPG") ;
+    background-size: cover;
+    background-position: center;  
+    align-content: center;      
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 100%;
+}
+
+
