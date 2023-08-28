@@ -38,7 +38,7 @@ footer nav ul  {
      margin-left: 25px;
 }
 
-figure {
+/*figure {
     height: 100px;
     width: 25%;
     margin-bottom: 25px;
@@ -47,13 +47,20 @@ figure {
     background-position: center;  
     align-content: center; 
     float: right;     
+}*/
+.about-me {
+    font-size: 5vh;
 }
 
 
 .content {
-    width: 50%;
-    display: inline-block;
-    margin-left: 20px;
+    justify-content: center;
+
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 a {
@@ -69,15 +76,8 @@ p {
     text-align: justify;
 }
 
-#about-me h2 {
-    margin-bottom: 20px;
-    position: relative;
-    left: 20px;
-    float: right;
-    margin-left: 10%;
-}
 
-h2 .vl,
+
 .work h2{
     float: left;
     margin-right: 15px;
