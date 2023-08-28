@@ -5,10 +5,15 @@
     margin: 0;
 } 
 
+
+:root {
+    --black-text: #;
+}
+
 body {
     background-color: rgb(227, 222, 222);
 }
-
+/* header section with name h1 & the navigation bar*/
 h1 {
     display: inline;
 }
@@ -27,6 +32,7 @@ header nav{
 }
 
 
+
 header nav ul,
 footer nav ul  {
     list-style-type: none;
@@ -38,8 +44,12 @@ footer nav ul  {
      margin-left: 25px;
 }
 
+
+/*profile picture with the about me section*/
+
+
 figure {
-    height: 100px;
+    height: 25vh;
     width: 25%;
     margin-bottom: 25px;
     background-image: url("../images/profile.JPG") ;
@@ -78,7 +88,7 @@ p {
 }
 
 h2 .vl,
-.work h2{
+.projects h2{
     float: left;
     margin-right: 15px;
     display: inline;
@@ -145,4 +155,10 @@ footer nav ul li {
 
 footer nav a {
     color: black;
+}
+
+
+
+#mobile-nav {
+    display: none;
 }
