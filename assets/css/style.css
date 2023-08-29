@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: rgb(227, 222, 222);
+    background-color: rgb(97, 93, 93);
 }
 /* header section with name h1 & the navigation bar*/
 
@@ -190,6 +190,7 @@ footer nav a {
 .projects {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: center;
     flex-flow: wrap;
 }
@@ -209,29 +210,27 @@ footer nav a {
 }
 
 .LED-wall {
-    width: 600px;
+    width: 400px;
     height: 350px;
     background-color: white;
     position: relative;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/assets/images/surf.jpg);
-    background-size: cover;
-    background-position: right;
+    
+
 }
 
 .Calculator {
-    width: 500px;
+    width: 400px;
     height: 300px;
     background-color: white;
     position: relative;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/assets/images/surf.jpg);
-    background-size: cover;
-    background-position: left;
+
+
 }
 
 .Pastel-puzzle {
@@ -242,9 +241,7 @@ footer nav a {
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/assets/images/surf.jpg);
-    background-size: cover;
-    background-position: right;
+
 }
 
 .Buddy-run {
@@ -255,9 +252,9 @@ footer nav a {
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
-    background-size: cover;
-    background-position: left;
+
 }
+
 
 
 
