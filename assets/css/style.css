@@ -6,72 +6,96 @@
 } 
 
 
-:root {
-    --black-text: #;
-}
-
 body {
     background-color: rgb(97, 93, 93);
 }
 /* header section with name h1 & the navigation bar*/
 
 
-figure {
-    height: 15vh;
-    width: 20%;
-    margin-bottom: 25px;
-    background-image: url("../images/profile.JPG") ;
-    background-size: cover;
-    background-position: center;  
-    align-content: center; 
-    display: inline; 
+
+ul {
+    list-style-type: none;
 }
 
-.content {
-    width: 80%;
-    justify-content: center;
-    padding: 15px;
-    flex-wrap: wrap;
-    
+
+
+
+
+nav {
     display: flex;
-    align-items: stretch;
+    justify-content: space-between;
+    align-items: right;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
 }
 
-header {
-    background-color: aqua;
-    padding: 25px;
-    margin: 0px;
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+
 }
 
-header nav{
 
-    padding-top: 0;
-    margin-right: 20px;
-    float: right;
+
+.name {
+    color: black;
+    font-size: 40px;
+    letter-spacing: .5px;
+    cursor: pointer;
+
+}
+
+
+.navli {
+    word-spacing: 40px;
     font-size: 25px;
 }
 
 
+/*about me section*/
 
-header nav ul,
+.item-about-me {
+    height: 350px;
+    background-color: white;
+    box-shadow: -10px 3px 25px black;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+
+.section-tag1 h2 {
+    padding: 5px;
+}
+
+
+
+
+
+
 footer nav ul  {
     list-style-type: none;
 }
 
-header nav ul li,
+
 footer nav ul  {
     display: inline-block;
      margin-left: 25px;
 }
 
 
-/*profile picture with the about me section*/
 
 
 
 
 
 
+a:hover {
+    color: blue;
+    transition: .7s;
+}
 
 a {
     color: #ffffff;
@@ -86,44 +110,11 @@ p {
     text-align: justify;
 }
 
-.about-me {
-    margin-bottom: 20px;
-    position: relative;
-    left: 20px;
-    float: right;
-    margin-left: 10%;
-}
-
-h2 .vl,
-.projects h2{
-    float: left;
-    margin-right: 15px;
-    display: inline;
-}
-
-
-p, h2 {
-    display: inline-block;
-}
 
 
 
 
 
-.background-image {
-    position: relative;
-    text-align: center;
-    color: #ffffff;
-    align-items: center;
-    border: blue;
-    border-radius: 10px;
-}
-
-.featured-card {
-    position: absolute;
-    bottom: 21px;
-    left: 16px;
-}
 
 
 
@@ -133,20 +124,18 @@ p, h2 {
 footer {
     padding: 30px;
     clear: both;
-    text-align: center;
+
 }
 
 .footer-bar {
     word-spacing: 40px;
+    align-content: center;
 }
 footer nav{
     padding-top: 15px;
     float:none;
     font-size: 20px;
     
-}
-footer nav ul {
-    list-style-type: none ;
 }
 
 footer nav ul li {
@@ -172,41 +161,37 @@ footer nav a {
 
 /*project Section*/
 
-.container-projects {
-    width: 100%;
-    height: auto;
-}
 
 
 .header-projects {
     font-size: 5rem;
     display: flex;
+    display: inline-block;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     margin: 22px;
 
 }
 
-.projects {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    flex-flow: wrap;
+#projects {
+    align-content: center;
+
+
 }
 
+
+.item-project {
+    align-content: right;
+}
 
 .Surf-Report {
     width: 1100px;
     height: 350px;
     background-color: white;
-    position: relative;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
-    background-image: url(/assets/images/surf.jpg);
-    background-size: cover;
-    background-position: center;
+
 }
 
 .LED-wall {
