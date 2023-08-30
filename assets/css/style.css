@@ -176,7 +176,7 @@ footer nav a {
 
 
 .Surf-Report {
-    width: 800px;
+    width: 1075px;
     height: 300px;
     background-image: url(https://www.pexels.com/photo/a-person-surfing-on-the-sea-5873907/);
     background-size: cover;
@@ -189,7 +189,7 @@ footer nav a {
 }
 
 .LED-wall {
-    width: 300px;
+    width: 500px;
     height: 300px;
     background-color: white;
     box-shadow: -10px 3px 25px black;
@@ -197,11 +197,12 @@ footer nav a {
     margin: 50px;
     margin-left: auto;
 
+
 }
 
 
 .Calculator {
-    width: 300px;
+    width: 500px;
     height: 300px;
     background-color: white;
     box-shadow: -10px 3px 25px black;
@@ -212,28 +213,28 @@ footer nav a {
 }
 
 .Pastel-puzzle {
-    width: 300px;
+    width: 500px;
     height: 300px;
     background-color: white;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin: 50px;
     margin-left: auto;
-    vertical-align: top;
+    margin-top: 0;
+   
 
 }
 
 
     .Buddy-run {
-        width: 300px;
+        width: 500px;
         height: 300px;
         background-color: white;
         box-shadow: -10px 3px 25px black;
         border-radius: 10px;
         margin: 50px;
         margin-left: auto;
-        vertical-align: top;
-    
+      
     }
 
 
@@ -241,17 +242,21 @@ footer nav a {
 
 
 .led-calculator{
-    width: 74%;
+    width: 70%;
     float: left;
     margin-left: auto;
+    justify-content: space-between;
+
 
 }
 
 .pastel-buddy {
-    width: 74%;
+    width: 70%;
     float: left;
     margin-left: auto;
-    vertical-align: top;
+    justify-content: space-evenly;
+padding-top: 0;
+margin-top: 0;
 }
 
 
