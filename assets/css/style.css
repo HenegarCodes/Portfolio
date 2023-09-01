@@ -1,3 +1,5 @@
+
+/*universal selector*/
 * {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
@@ -8,23 +10,25 @@
     border: 0;
 } 
 
-
+/*body*/
 body {
     background-color: rgb(255, 255, 255);
 }
 /* header section with name h1 & the navigation bar*/
 
 
-
+/*menu nav bar not bulleted*/
 ul {
     list-style-type: none;
 }
-
+/*  header for my name*/
 
 header h2 {
     background-color: blue;
     padding-bottom: 1px;
 }
+
+/* background for the header with name and nav as well as format for it */
 .top-page {
     width: 100%;
     height: 25%;
@@ -32,15 +36,10 @@ header h2 {
     padding-bottom: 1px;
 }
 
-.Quotebar{
-    width: 100%;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-    
-}
 
 
 
+/* full nav bar format on how it is placed and where */
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,13 +51,15 @@ nav {
     
 }
 
+/* takes the list alignment away to make it horizontal not vertical */
+
 nav ul li {
     list-style-type: none;
     display: inline;
 
 }
 
-
+/* tbasically the header for all the project classes customized */
 
 .name {
     color: black;
@@ -68,7 +69,7 @@ nav ul li {
 
 }
 
-
+/*  spaces and customizes the top nav fonts*/
 .navli {
     word-spacing: 40px;
     font-size: 25px;
@@ -86,6 +87,8 @@ nav ul li {
 
 }
 
+
+/* about me section customization */
 .section-tag1 h2 {
    /* padding: 5px;
     padding-bottom: 15px;
@@ -98,10 +101,10 @@ nav ul li {
     justify-content: left;
    /* margin: 50px;*/
     border-right: 4px solid black;
-      
+      padding-right: 20px;
     z-index: 1;
 }
-
+/* image for the about me section */
 .section-tag1 img {
     position: relative;
     height: 350px;
@@ -109,7 +112,7 @@ nav ul li {
     border-radius: 10px;
     float: right;
 }
-
+/*  format for the paragraph text in about me*/
 .section-tag1 p{
     position: relative;
     width: 50%;
@@ -117,8 +120,10 @@ float: left;
 padding-top :5%;
 
 }
-
-
+/* following sections will be for the footer navigation bar to contact me */
+footer {
+    padding: 30px;
+}
 footer nav{
     display: inline;
     align-items: center;
@@ -136,40 +141,9 @@ footer nav ul  {
     margin:auto 0 ;
 }
 
-
-
-
 footer {
     text-align: center;
 }
-
-
-
-a:hover {
-    color: blue;
-    transition: .7s;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 100%;
-    display: inline;
-    padding: 0;
-    margin: 0;
-    text-align: justify;
-}
-
-
-footer {
-    padding: 30px;
-
-
-}
-
 .footer-bar {
     word-spacing: 40px;
     margin:auto 0 ;
@@ -181,33 +155,48 @@ footer nav{
     padding-top: 15px;
     margin:auto 0 ;
     font-size: 20px;
-
-    
-    
 }
-
-
 footer nav a {
     color: black;
 }
 
 
-
-#mobile-nav {
-    display: none;
-}
-
-
+/* centers the projects names*/
 .name {
     text-align: center;
 }
 
 
 
+/* allows the hover for all elements specifically custom to the navigation bar up top */
+a:hover {
+    color: blue;
+    transition: .7s;
+}
+
+/*  anchaor colors and decorations*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*  paragraph customs to override our universal*/
+p {
+    font-size: 100%;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+
+
+
+
 
 /*project Section*/
 
-
+/* This creates the cars for projects to sit in and the headers for them*/
 
 .header-projects {
     font-size: 4rem;
@@ -222,14 +211,14 @@ footer nav a {
     padding-bottom: 2%;
 }
 
-
+/* surf report hover over*/
 
 .Surf-Report:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
 
 }
-
+/* sruf report class customization*/
 .Surf-Report {
     width: 1075px;
     height: 300px;
@@ -238,6 +227,8 @@ footer nav a {
     margin-left: auto;
     margin-right: 4%;
 }
+
+/*surf report h2 format */
 .Surf-Report h2{
     color: aqua;
     display: flex;
@@ -249,6 +240,7 @@ footer nav a {
     position: absolute;
     z-index: 1;
 }
+/*image customization to fit */
 
 .Surf-Report img{
     position: relative;
@@ -256,21 +248,22 @@ footer nav a {
    width: 100%;
    border-radius: 10px;
 }
+
+/*hover function for new project card*/
 .LED-wall:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
 
 }
+/*new card and section customization to fit card*/
 .LED-wall {
     width: 500px;
     height: 300px;
     background-color: white;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
-
-
-
 }
+/*new section h2 formatting to the card*/
 .LED-wall h2{
     color: aqua;
     display: flex;
@@ -282,6 +275,7 @@ footer nav a {
     position: absolute;
     z-index: 1;
 }
+/*image customization to fit */
 .LED-wall img{
     position: relative;
     height: 301px;
@@ -290,20 +284,21 @@ footer nav a {
 
 }
 
-
+/*hover function for new project card*/
 .Calculator:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
 
 }
+/*new card and section customization to fit card*/
 .Calculator {
     width: 500px;
     height: 300px;
     background-color: white;
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
-
 }
+/*new section h2 formatting to the card*/
 .Calculator h2 {
     color: aqua;
     display: flex;
@@ -315,18 +310,20 @@ footer nav a {
     position: absolute;
     z-index: 1;
 }
-
+/*image customization to fit */
 .Calculator img {
     position: relative;
     height: 301px;
    width: 100%;
    border-radius: 10px;
 }
+/*hover function for new project card*/
 .Pastel-puzzle:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
 
 }
+/*new card and section customization to fit card*/
 .Pastel-puzzle {
     width: 500px;
     height: 300px;
@@ -335,7 +332,7 @@ footer nav a {
     border-radius: 10px;
 
 }
-
+/*new section h2 formatting to the card*/
 .Pastel-puzzle h2 {
     color: aqua;
     display: flex;
@@ -347,18 +344,19 @@ footer nav a {
     position: absolute;
     z-index: 1;
 }
-
+/*image customization to fit */
 .Pastel-puzzle img {
     position: relative;
     height: 301px;
    width: 100%;
    border-radius: 10px;
 }
-
+/*hover function for new project card*/
 .Buddy-run:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
 }
+/*new card and section customization to fit card*/
 .Buddy-run {
         width: 500px;
         height: 300px;
@@ -368,6 +366,7 @@ footer nav a {
 
       
     }
+    /*new section h2 formatting to the card*/
 .Buddy-run h2 {
     color: aqua;
     display: flex;
@@ -379,6 +378,8 @@ footer nav a {
     position: absolute;
     z-index: 1;
 }
+
+/*image customization to fit */
 .Buddy-run img {
     position: relative;
     height: 301px;
@@ -387,6 +388,8 @@ footer nav a {
 }
 
 /*positiong the 2 extra containers per row next to each other*/
+
+
 
 
 .LED-wall,
@@ -399,9 +402,19 @@ footer nav a {
     justify-content: space-between;
     margin: 50px;
     margin-left: 30px;
+    flex-basis: 50%;
+
+
+
+}
+.LED-wall {
+    margin-right:25% ;
 }
 
-
+.Calculator 
+{
+    margin-left: 25%;
+}
 
 .LED-wall,
 .Pastel-puzzle {
@@ -409,25 +422,32 @@ footer nav a {
     margin-right: 50px;
 }
 
+#item {
+    display: flex;
+    flex-flow: row wrap;
+    display: inline-block;
+}
 
 
 
 
 
+/*resizing for the screens*/
 
-
-
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 600px) {
     main,
     nav {
         flex-direction: column;
         overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+        padding-right: 50%;
+        padding-left: 50%;
+    
         
     }
-
-
-
 }
+
 
 
 @media screen and (max-width: 992px) {
@@ -435,6 +455,8 @@ footer nav a {
     nav {
         flex-direction: column;
         overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
     }
     
     .navli{
@@ -442,4 +464,7 @@ footer nav a {
     }
 
 }
+
+
+
 
