@@ -3,6 +3,9 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    border: 0;
 } 
 
 
@@ -20,11 +23,13 @@ ul {
 
 header h2 {
     background-color: blue;
+    padding-bottom: 1px;
 }
 .top-page {
     width: 100%;
-    height: 75px;
+    height: 25%;
     background-color: rgb(94, 94, 94);
+    padding-bottom: 1px;
 }
 
 .Quotebar{
@@ -34,9 +39,7 @@ header h2 {
     
 }
 
-#purpose {
-    color: aquamarine;
-}
+
 
 nav {
     display: flex;
@@ -88,6 +91,13 @@ nav ul li {
     padding-bottom: 15px;
 */
     position: absolute;
+    font-size: 2rem;
+
+
+    align-items: left;
+    justify-content: left;
+   /* margin: 50px;*/
+    border-right: 4px solid black;
       
     z-index: 1;
 }
@@ -95,12 +105,16 @@ nav ul li {
 .section-tag1 img {
     position: relative;
     height: 350px;
-    width: 100%;
+    width: 40%;
     border-radius: 10px;
+    float: right;
 }
 
 .section-tag1 p{
-float: right;
+    position: relative;
+    width: 50%;
+float: left;
+padding-top :5%;
 
 }
 
@@ -203,7 +217,9 @@ footer nav a {
     justify-content: left;
    /* margin: 50px;*/
     border-right: 4px solid black;
-    flex: 0 0 20%;padding-right: 45px;
+    flex: 0 0 20%;
+    padding-right: 45px;
+    padding-bottom: 2%;
 }
 
 
@@ -220,9 +236,16 @@ footer nav a {
     box-shadow: -10px 3px 25px black;
     border-radius: 10px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 4%;
 }
 .Surf-Report h2{
+    color: aqua;
+    display: flex;
+    opacity: .5;
+  background-color: rgb(0, 0, 0, 1);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     position: absolute;
     z-index: 1;
 }
@@ -232,9 +255,7 @@ footer nav a {
     height: 301px;
    width: 100%;
    border-radius: 10px;
-
 }
-
 .LED-wall:hover{
     color: rgba(255,255,255,1);
     box-shadow: 0 5px 15px rgb(192, 51, 51);
@@ -251,6 +272,13 @@ footer nav a {
 
 }
 .LED-wall h2{
+    color: aqua;
+    display: flex;
+    opacity: .5;
+  background-color: rgb(0, 0, 0, 1);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     position: absolute;
     z-index: 1;
 }
@@ -277,6 +305,13 @@ footer nav a {
 
 }
 .Calculator h2 {
+    color: aqua;
+    display: flex;
+    opacity: .5;
+  background-color: rgb(0, 0, 0, 1);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     position: absolute;
     z-index: 1;
 }
@@ -302,6 +337,13 @@ footer nav a {
 }
 
 .Pastel-puzzle h2 {
+    color: aqua;
+    display: flex;
+    opacity: .5;
+  background-color: rgb(0, 0, 0, 1);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     position: absolute;
     z-index: 1;
 }
@@ -327,8 +369,14 @@ footer nav a {
       
     }
 .Buddy-run h2 {
+    color: aqua;
+    display: flex;
+    opacity: .5;
+  background-color: rgb(0, 0, 0, 1);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     position: absolute;
-      
     z-index: 1;
 }
 .Buddy-run img {
@@ -366,4 +414,32 @@ footer nav a {
 
 
 
+
+
+
+@media screen and (max-width: 688px) {
+    main,
+    nav {
+        flex-direction: column;
+        overflow-x: hidden;
+        
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    main,
+    nav {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    
+    .navli{
+        text-align: center;
+    }
+
+}
 
